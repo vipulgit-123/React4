@@ -1,9 +1,14 @@
 import './App.css';
+import Navbar from "./Navbar";
+import Shop from "./Shop";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello i am learning Redux</h1>
+     <Navbar/>
+        <div className="container">
+     <Shop/>
+            </div>
     </div>
   );
 }
